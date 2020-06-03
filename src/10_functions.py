@@ -10,3 +10,19 @@ num = int(num)
 
 # YOUR CODE HERE
 
+def even_odd(x):
+    if x % 2 == 0:
+<<<<<<< HEAD
+        print('Even')
+    else:
+        print('Odd')
+
+even_odd(num)
+=======
+        answer = 'Even!'
+    else:
+        answer = 'Odd!'
+    return answer
+
+print(even_odd(num))
+>>>>>>> 445160f5a5274fb7fb007873da70e0c8dbed8d2b
